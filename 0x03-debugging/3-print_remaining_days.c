@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 i#include <stdio.h>
+=======
+#include <stdio.h>
+>>>>>>> 281fc78f8798aa2d7e5dd2ae619fb6b8600b30b6
 #include "main.h"
 
 /**
@@ -12,9 +16,15 @@ i#include <stdio.h>
 
 void print_remaining_days(int month, int day, int year)
 {
+<<<<<<< HEAD
     if ((year % 100 == 0 && year % 400 == 0) || (year % 4 == 0))
     {
         if (month > 2 && day >= 60)
+=======
+    if ((year % 4 == 0 || year % 400 == 0) && !(year % 100 == 0))
+    {
+        if (month >= 2 && day >= 60)
+>>>>>>> 281fc78f8798aa2d7e5dd2ae619fb6b8600b30b6
         {
             day++;
         }
