@@ -2,8 +2,8 @@
 
 /**
  * print_rev - This function prints a recerse string
- *
- * @s: This is the input string
+ * @s: string
+ * return: 0
  */
 void print_rev(char *s)
 {
