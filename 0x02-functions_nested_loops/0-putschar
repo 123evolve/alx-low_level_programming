@@ -1,6 +1,7 @@
 #include <stdio>
 
-int main() {
+int main() 
+{
 	print("_putchar\n")
 	return 0;
-	}
+}
