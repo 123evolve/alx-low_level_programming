@@ -7,18 +7,15 @@
 
 int main(void)
 {
-	int n = 97;
+	char c;
 
-	while (n <= 122)
-	{
-		if (n == 101 || n== 113)
-		{
-			n++;
-			continue;
+	c = 'a'
+	while 
+		(c <= 'z') {
+			if ((c != 'q' && c != 'e') && c <= 'z')
+				putchar(c);
+			c++
 		}
-		putchar(n);
-		n++
-	}
 	putchar('\n');
 	return (0);
 }
